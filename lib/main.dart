@@ -1,3 +1,4 @@
+import 'package:flight_booking_flutter_app/pages/flight_book.dart';
 import 'package:flight_booking_flutter_app/pages/select_traveler.dart';
 import 'package:flight_booking_flutter_app/pages/splashscreen.dart';
 import 'package:flutter/material.dart';
@@ -43,8 +44,7 @@ class BookingApp extends StatelessWidget {
         '/user_singup':(ctx) => SignupFormValidation(),
         '/user_profile':(ctx) => ProfilePage(),
         '/splash':(ctx)=>SplashScreen(),
-
-
+        '/flight_book':(ctx)=>FlightBook()
       },
     );
   }
